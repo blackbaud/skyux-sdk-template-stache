@@ -1,0 +1,44 @@
+<app-nav></app-nav>
+<sky-hero
+  overlayOpacity="0.4"
+  backgroundImageUrl="~/assets/hero-sample-1.jpg">
+  <sky-hero-heading>
+      Stache
+  </sky-hero-heading>
+  <sky-hero-subheading>
+    Documentation components designed for SKY UX applications
+  </sky-hero-subheading>
+</sky-hero>
+
+<stache
+  layout="container"
+  showBreadcrumbs="false"
+  pageTitle="Welcome">
+
+  <p>
+    Welcome to the SKY UX Stache template.  This template is dynamically cloned anytime <stache-code>skyux new --template stache</stache-code> is run.
+  </p>
+
+  <h1>
+    Welcome to {{ stache.jsonData.global.productNameLong }}!
+  </h1>
+
+  <sky-row>
+    <sky-column screenSmall="12" screenMedium="6" screenLarge="6">
+      <h2>
+        SKY UX
+      </h2>
+      <p>
+        For more information on SKY UX, including components and how to manage the builder, see the <a href="https://developer.blackbaud.com/skyux2/">SKY UX docs</a>.
+      </p>
+    </sky-column>
+    <sky-column screenSmall="12" screenMedium="6" screenLarge="6">
+      <h2>
+        Stache
+      </h2>
+      <p>
+        For more information on how to use Stache to create your documentation, see the <a href="https://github.com/blackbaud/stache2-docs">Stache Docs</a>.
+      </p>
+    </sky-column>
+  </sky-row>
+</stache>
