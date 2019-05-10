@@ -11,16 +11,6 @@ import {
 } from '@blackbaud/skyux-lib-media';
 
 import {
-  StacheWrapperModule,
-  StachePageSummaryModule,
-  StacheCodeModule,
-  StacheIncludeModule,
-  StachePageAnchorModule,
-  StacheBlockquoteModule,
-  StacheTutorialModule
-} from '@blackbaud/skyux-lib-stache';
-
-import {
   SkyAlertModule
 } from '@skyux/indicators';
 
@@ -38,14 +28,7 @@ import {
     SkyCodeBlockModule,
     SkyFluidGridModule,
     SkyHeroModule,
-    SkyNavbarModule,
-    StacheBlockquoteModule,
-    StacheCodeModule,
-    StacheIncludeModule,
-    StachePageAnchorModule,
-    StachePageSummaryModule,
-    StacheTutorialModule,
-    StacheWrapperModule
+    SkyNavbarModule
   ]
 })
 export class AppSkyModule { }

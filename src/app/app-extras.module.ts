@@ -6,9 +6,14 @@ import {
   AppSkyModule
 } from './app-sky.module';
 
+import {
+  AppStacheModule
+} from './app-stache.module';
+
 @NgModule({
   exports: [
-    AppSkyModule
+    AppSkyModule,
+    AppStacheModule
   ]
 })
 export class AppExtrasModule { }
