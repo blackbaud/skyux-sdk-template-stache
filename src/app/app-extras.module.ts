@@ -2,18 +2,20 @@ import {
   NgModule
 } from '@angular/core';
 
+import { StacheModule } from '@blackbaud/skyux-lib-stache';
+
+// Specify entry components, module-level providers, etc. here.
 import {
   AppSkyModule
 } from './app-sky.module';
 
-import {
-  AppStacheModule
-} from './app-stache.module';
-
 @NgModule({
+  imports: [
+    StacheModule
+  ],
   exports: [
     AppSkyModule,
-    AppStacheModule
+    StacheModule
   ]
 })
 export class AppExtrasModule { }
