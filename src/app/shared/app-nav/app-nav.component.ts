@@ -22,10 +22,6 @@ export class AppNavComponent {
     {
       name: 'Support',
       path: '/support'
-    },
-    {
-      name: 'Contribute',
-      path: '/contribute'
     }
   ];
 }
