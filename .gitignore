@@ -19,8 +19,9 @@ yarn.lock
 
 # SKY UX temp directory
 .skyuxtmp
-.skypageslocales
 .skypagestmp
+.srctmp
+.skypageslocales
 
 # SKY UX build directory
 dist
