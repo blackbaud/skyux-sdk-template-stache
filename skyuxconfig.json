@@ -1,22 +1,22 @@
 {
   "$schema": "./node_modules/@skyux/config/skyuxconfig-schema.json",
-  "mode": "easy",
-  "compileMode": "aot",
-  "plugins": [
-    "@blackbaud/skyux-builder-plugin-stache",
-    "@blackbaud/skyux-builder-plugin-code-block"
-  ],
   "app": {
     "title": "Stache Template"
   },
   "appSettings": {
     "stache": {
-      "searchConfig": {
-        "allowSiteToBeSearched": false
-      },
       "editButton": {
         "url": "your-repo-url"
+      },      
+      "searchConfig": {
+        "allowSiteToBeSearched": false
       }
     }
-  }
+  },
+  "compileMode": "aot",
+  "mode": "easy",
+  "plugins": [
+    "@blackbaud/skyux-builder-plugin-stache",
+    "@blackbaud/skyux-builder-plugin-code-block"
+  ]
 }
