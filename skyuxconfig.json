@@ -7,7 +7,7 @@
     "stache": {
       "editButton": {
         "url": "your-repo-url"
-      },      
+      },
       "searchConfig": {
         "allowSiteToBeSearched": false
       }
@@ -18,5 +18,10 @@
   "plugins": [
     "@blackbaud/skyux-builder-plugin-stache",
     "@blackbaud/skyux-builder-plugin-code-block"
-  ]
+  ],
+  "host": {
+    "frameOptions": {
+      "none": true
+    }
+  }
 }
