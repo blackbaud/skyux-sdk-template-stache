@@ -29,6 +29,7 @@
     "@blackbaud/skyux-lib-clipboard": "^4.0.0",
     "@blackbaud/skyux-lib-code-block": "^4.0.0",
     "@blackbaud/skyux-lib-media": "^4.0.0",
+    "@blackbaud/skyux-lib-restricted-view": "^4.1.0",
     "@blackbaud/skyux-lib-stache": "^4.0.0",
     "@skyux/animations": "^4.0.0",
     "@skyux/assets": "^4.0.0",
